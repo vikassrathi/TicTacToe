@@ -1,4 +1,5 @@
-from Cell import Cell
+from src.Models.Cell import Cell
+
 
 class board:
     def __init__(self,board_size):

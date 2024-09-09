@@ -1,19 +1,20 @@
 from src.Models.CellStatus import CellStatus
-from src.Models.Game import Game
+
 from src.Models.GameStatus import GameStatus
 
 
 class GameService:
 
     def start_game(self,size,players,winning_stg):
-        game=Game.gameBuilder().set_players().set_dimension().set_winning_strategies().build()
-
+        from src.Models.Game import Game
+        game=Game.gameBuilder().set_players(players).set_dimension(size).set_winning_strategies(winning_stg).build()
+        return game
     def display_game(self,game):
         game.Board.print_board()
 
     def take_move(self,game):
         current_player=game.players[game.next_turn]
-        cell=current_player.decide_cell()
+        cell=current_player.decide_cell(game.board)
         cell.player=current_player
         cell.status=CellStatus.FILLED
         game.moves.append(cell)

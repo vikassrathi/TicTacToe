@@ -1,5 +1,6 @@
-from board import board
+
 from src.Models.GameStatus import GameStatus
+from src.Models.board import board
 from src.helper.GameBuilder import GameBuilder
 
 
@@ -15,5 +16,5 @@ class Game:
 
 
     @staticmethod
-    def gameBuilder(self):
+    def gameBuilder():
         return  GameBuilder()

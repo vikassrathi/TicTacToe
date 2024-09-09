@@ -1,4 +1,6 @@
-from CellStatus import CellStatus
+from src.Models.CellStatus import CellStatus
+
+
 class Cell:
     def __init__(self,row,column):
         self.row=row
