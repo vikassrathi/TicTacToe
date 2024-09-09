@@ -1,6 +1,8 @@
 class GameController:
 
 
+    gameService: object
+
     def __init__(self,gameService):
         self.gameService=gameService
 

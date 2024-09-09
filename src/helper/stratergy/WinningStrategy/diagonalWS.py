@@ -9,7 +9,7 @@ class DiagonalWS(Winning):
 
     def check_winner(self,cell,board):
         row=cell.row
-        col=cell.col
+        col=cell.column
         symbol=cell.player.symbol
         if row==col:
             if symbol not in self.count1:
