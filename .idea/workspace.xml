@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13d08acd-b3d3-4585-a446-73929ca91fee" name="Changes" comment="TicTacToe">
-      <change afterPath="$PROJECT_DIR$/src/CustomExceptions/InvalidPlayerException.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CustomExceptions/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helper/GameBuilder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helper/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/stratergy/BotFactory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/stratergy/WinningStrategy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/stratergy/WinningStrategy/diagonalWS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/stratergy/WinningStrategy/winning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/stratergy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/stratergy/botstrategy/BotStrategy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/stratergy/botstrategy/Easy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/stratergy/botstrategy/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Cell.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Cell.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/board.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/board.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/players.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/players.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/GameController.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/GameController.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/GameService.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/GameService.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +54,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vikas\PycharmProjects\TicTacToe\src\helper\stratergy\WinningStrategy" />
       <recent name="C:\Users\Vikas\PycharmProjects\TicTacToe\src\helper" />
       <recent name="C:\Users\Vikas\PycharmProjects\TicTacToe\src" />
     </key>
@@ -102,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725826634558</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="TicTacToe">
+      <option name="closed" value="true" />
+      <created>1725884956805</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725884956805</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
