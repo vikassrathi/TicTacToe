@@ -5,3 +5,11 @@ class Cell:
         self.column=column
         self.status=CellStatus.EMPTY
         self.player=None
+
+
+    def display(self):
+        if self.status==CellStatus.EMPTY:
+            print("| - |",end="")
+        else:
+            print(f"|- {self.player.Symbol.symbol} |",end="")
+
