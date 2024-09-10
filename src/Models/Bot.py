@@ -10,4 +10,8 @@ class Bot(players):
         self.strategy = BotFactory.getBot(self.difficulty)
 
     def decide_cell(self, board):
-        return self.strategy.decide_move(board)
+        """
+
+        :type board: object
+        """
+        return self.strategy.decide_move(self,board)

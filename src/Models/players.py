@@ -5,7 +5,7 @@ class players:
         self.type=type
         self.symbol=symbol
 
-    def decide_cell(self,board):
+    def decide_cell(self, board: object) -> object:
         while True:
             row=int(input('Enter row: ' ))
             col=int(input('Emter column: '))

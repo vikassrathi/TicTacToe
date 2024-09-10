@@ -31,7 +31,7 @@ if __name__=='__main__':
             gc.undo_move(game)
             gc.display_board(game)
     if game.gameStatus==GameStatus.COMPLETED:
-        print(f'Winner:{game.winner}')
+        print(f'Winner:{game.winner.name}')
     elif game.gameStatus==GameStatus.DRAW:
         print(f'DRAW!')
     #

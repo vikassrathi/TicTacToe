@@ -4,8 +4,7 @@ from src.helper.stratergy.botstrategy.BotStrategy import BotStrategy
 
 class Easy(BotStrategy):
 
-    def decide_move(self, board: object) -> object:
-        print('THis is', board)
+    def decide_move(self,board: object) -> object:
         for row in board.grid:
             for cell in row:
                 if cell.status == CellStatus.EMPTY:
